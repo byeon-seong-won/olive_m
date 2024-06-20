@@ -1,0 +1,127 @@
+
+
+
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+
+.inner {
+  padding: 0 15px;
+}
+
+
+
+
+
+
+/* headline 공통 */
+.headline {
+  color: #131518;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+
+/* 하단 탭 */
+#tabBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* --tabHeight : 0; */
+  z-index: 11;
+  transform: translateY(0);
+  transition: transform .2s ease-out .2s;
+  background-color: #fff;
+}
+#tabBar.hide {
+  transform: translateY(100%);
+}
+
+#tabBar ul {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+  height: 50px;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+}
+#tabBar ul li {
+  flex: 1;
+}
+#tabBar ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#tabBar ul li a svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 0;
+  stroke: #131518;
+}
+#tabBar ul li a path {
+  stroke: #131518;
+}
+#tabBar ul li a p {
+  font-size: 10px;
+  margin-top: 5px;
+  line-height: 11px;
+  color: #131518;
+}
+#tabBar ul li a svg.home path {
+  fill:#131518;
+}
+
+
+
+
+/* top 버튼 */
+#top-btn {
+  position: fixed;
+  display: flex;
+  right: 15px;
+  bottom: 65px;
+  /* bottom: calc(var(--tabHeight) + 15px); */
+  left: auto;
+  z-index: 100;
+  transition: .3s .2s;
+}
+#top-btn.slide {
+  bottom: 15px;
+}
+#top-btn a {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: hsla(0,0%,100%,.9);
+  border: 1px solid #dadde0;
+}
+#top-btn a svg {
+  margin-top: -.5px;
+  margin-left: -1px;
+  fill: #757d86;
+  width: 40px;
+  height: 40px;
+}
+
+
+

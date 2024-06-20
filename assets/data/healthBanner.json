@@ -1,0 +1,191 @@
+{
+    "status": "SUCCESS",
+    "code": 200,
+    "message": "Requested Successful",
+    "data": {
+      "weeklySpecialBanners": [
+        {
+          "displaySequence": 1,
+          "imageUrl": "90000120003/437/2060456404755937303.jpg",
+          "imageSubText": "일반식품-402-9_에너지업_건일식연합_신상아",
+          "contentsColorInfo": "NOT_USE",
+          "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104190005",
+          "contentsDescription": "나른한 봄에도 \n활기찬 일상 보내요\n#운동보조제 #건강식품",
+          "contentsFontInfo": null
+        },
+        {
+          "displaySequence": 2,
+          "imageUrl": "90000120003/437/5795867801868824583.jpg",
+          "imageSubText": "W케어-402-6_이브네_임진희",
+          "contentsColorInfo": "NOT_USE",
+          "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104210016",
+          "contentsDescription": "그날에도 오운완!\r\n운동 생리대 이브네\r\n#7일 특가",
+          "contentsFontInfo": null
+        }
+      ],
+      "healthEventBanners": [
+        {
+          "displaySequence": 1,
+          "imageUrl": "90000120003/438/1013599540426109433.jpg",
+          "imageSubText": "건강식품 하루당 가격이 궁금해요!_백혜진",
+          "contentsColorInfo": "NOT_USE",
+          "contentsUrl": "/mtn/health?menu=ranking&t_page=H%ED%99%88&t_click=H_GNB&t_gnb_type=ranking&t_swiping_type=N&category=20000010002",
+          "contentsDescription": "하루당가격",
+          "contentsFontInfo": null
+        },
+        {
+          "displaySequence": 2,
+          "imageUrl": "90000120003/438/3753685825021822577.jpg",
+          "imageSubText": "리액션 받으면 리워드 드려요!_고영은",
+          "contentsColorInfo": "NOT_USE",
+          "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000102970013",
+          "contentsDescription": "리액션 받으면 리워드 드려요!",
+          "contentsFontInfo": null
+        },
+        {
+          "displaySequence": 3,
+          "imageUrl": "90000120003/438/4143899286019170153.jpg",
+          "imageSubText": "(4/1~14)헬스+체크인_천화영",
+          "contentsColorInfo": "NOT_USE",
+          "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000103960010",
+          "contentsDescription": "/",
+          "contentsFontInfo": null
+        }
+      ],
+      "limitQuantitySpecialPriceGoods": {
+        "titleContent": "4월의 기특한 일주일!",
+        "noticeContent": [
+          
+        ],
+        "goods": [
+          {
+            "goodsNumber": "A000000186434",
+            "goodsName": "[4월 올영PICK] 티트리트 푸룬딥스트롱 180ml",
+            "masterGoodsNumber": "8809684501139",
+            "imagePath": "10/0000/0018/A00000018643402ko.jpg?l=ko",
+            "soldOutFlag": false,
+            "onlineBrandCode": "A002867",
+            "onlineBrandName": "티트리트",
+            "todaySpecialFlag": false,
+            "bestGoodsFlag": true,
+            "exclusiveGoodsFlag": false,
+            "newGoodsFlag": false,
+            "discountFlag": false,
+            "discountRate": 10,
+            "priceToPay": 4050,
+            "basisPrice": 4500,
+            "originalPrice": 4500,
+            "quickDeliveryFlag": true,
+            "presentFlag": false,
+            "downloadCouponFlag": false,
+            "freeDeliveryFlag": false,
+            "onlineAdultCertificateFlag": false,
+            "giftPromotion": "1+1",
+            "displayCategory": {
+              "upperCategoryNumber": "2000001",
+              "upperCategoryName": "H특대카테고리",
+              "middleCategoryNumber": "20000010003",
+              "middleCategoryName": "푸드",
+              "lowerCategoryNumber": "200000100030001",
+              "lowerCategoryName": "이너뷰티/식단관리",
+              "leafCategoryNumber": "2000001000300010003",
+              "leafCategoryName": "클렌즈 주스"
+            },
+            "standardCategory": {
+              "upperCategoryNumber": "08",
+              "upperCategoryName": "일반식품",
+              "middleCategoryNumber": "0813",
+              "middleCategoryName": "주스",
+              "lowerCategoryNumber": "081303",
+              "lowerCategoryName": "혼합주스"
+            },
+            "optionItemsFlag": false,
+            "wishedGoodsFlag": false,
+            "reservationSaleFlag": false,
+            "goodsReviewScore": 4.7,
+            "goodsReviewTotalCount": 4243,
+            "unitPerPrice": 0,
+            "unitName": null
+          },
+          {
+            "goodsNumber": "A000000202771",
+            "goodsName": "[4월 올영픽] 프로티원 단백질쉐이크 파우치형 40g 4종 택1",
+            "masterGoodsNumber": "8809441204198",
+            "imagePath": "10/0000/0020/A00000020277111ko.jpg?l=ko",
+            "soldOutFlag": false,
+            "onlineBrandCode": "A010952",
+            "onlineBrandName": "프로티원",
+            "todaySpecialFlag": false,
+            "bestGoodsFlag": true,
+            "exclusiveGoodsFlag": false,
+            "newGoodsFlag": false,
+            "discountFlag": true,
+            "discountRate": 23,
+            "priceToPay": 2990,
+            "basisPrice": 3300,
+            "originalPrice": 3900,
+            "quickDeliveryFlag": true,
+            "presentFlag": false,
+            "downloadCouponFlag": false,
+            "freeDeliveryFlag": false,
+            "onlineAdultCertificateFlag": false,
+            "giftPromotion": null,
+            "displayCategory": {
+              "upperCategoryNumber": "2000001",
+              "upperCategoryName": "H특대카테고리",
+              "middleCategoryNumber": "20000010003",
+              "middleCategoryName": "푸드",
+              "lowerCategoryNumber": "200000100030001",
+              "lowerCategoryName": "이너뷰티/식단관리",
+              "leafCategoryNumber": "2000001000300010004",
+              "leafCategoryName": "닭가슴살/가공육"
+            },
+            "standardCategory": {
+              "upperCategoryNumber": "08",
+              "upperCategoryName": "일반식품",
+              "middleCategoryNumber": "0807",
+              "middleCategoryName": "편의가공식품",
+              "lowerCategoryNumber": "080705",
+              "lowerCategoryName": "즉석편의식품"
+            },
+            "optionItemsFlag": true,
+            "wishedGoodsFlag": false,
+            "reservationSaleFlag": false,
+            "goodsReviewScore": 4.8,
+            "goodsReviewTotalCount": 497,
+            "unitPerPrice": 0,
+            "unitName": null
+          }
+        ]
+      },
+      "onlyHealthBenefitGoods": [
+        {
+          "tabType": "",
+          "tabName": "",
+          "totalCount": 0,
+          "goods": [
+            
+          ]
+        }
+      ],
+      "newGoodsSpecialPriceGoods": {
+        "goods": [
+          
+        ]
+      },
+      "healthSaleCoupon": [
+        
+      ],
+      "saleBest": [
+        {
+          "tabId": "DEFAULT_INTEGRATED",
+          "tabName": "",
+          "requestParam": "0-100",
+          "goods": [
+            
+          ]
+        }
+      ]
+    },
+    "pagination": null
+  }

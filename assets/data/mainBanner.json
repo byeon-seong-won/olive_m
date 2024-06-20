@@ -1,0 +1,202 @@
+{
+    "status": "SUCCESS",
+    "code": 200,
+    "message": "Requested Successful",
+    "data": {
+        "displayCategoryNumber": "90000120002",
+        "mainBanners": [
+            {
+                "displaySequence": 1,
+                "imageUrl": "90000120004/491/850465874782890808.jpg",
+                "imageSubText": "헬스다이브 1차_김서현",
+                "contentsColorInfo": "BLACK",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000103960015",
+                "contentsDescription": "내일의 건강함\r\n올영에서 시작해요\r\n올영 헬스다이브, 최대 50%할인",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 2,
+                "imageUrl": "90000120004/491/8762135706957811822.jpg",
+                "imageSubText": "A002343_grn+_박혜경",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "display/getBrandShopDetail.do?onlBrndCd=A002343",
+                "contentsDescription": "슬림해지기 위한\n하루 습관\nGRN+ BEST 확인하기",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 3,
+                "imageUrl": "90000120004/491/1279406722509695381.jpg",
+                "imageSubText": "A000333_리스테린_박혜경",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "display/getBrandShopDetail.do?onlBrndCd=A000333",
+                "contentsDescription": "가글 후에도\n편안한 순한 맛\n리스테린 구강템 기획전",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 4,
+                "imageUrl": "90000120004/491/4395084510277225456.jpg",
+                "imageSubText": "(5/1~5) 5월 헬스FOCUS_김서현",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000103960014",
+                "contentsDescription": "올영이 주목한\n5월의 헬스아이템\n10%쿠폰, 오늘의 특가",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 6,
+                "imageUrl": "90000120004/491/8864107176459700083.jpg",
+                "imageSubText": "헬스에이드-501-7_글루어트_이보미",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104200011",
+                "contentsDescription": "혈당스파이크\n관리를 시작해요\n글루어트 풀세트 할인",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 7,
+                "imageUrl": "90000120004/491/5356325292509206307.jpg",
+                "imageSubText": "일반식품-501-1_온브릭스_최혜민",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000103680075",
+                "contentsDescription": "신선함을 그대로\n전달해드려요\n온브릭스 할인",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 8,
+                "imageUrl": "90000120004/491/4555066881727645990.jpg",
+                "imageSubText": "건강식품-501-7_룰더핏_김진주",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104180018",
+                "contentsDescription": "더 가벼워지는\n내일을 위해\n룰더핏 올리브영 단독할인",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 9,
+                "imageUrl": "90000120004/491/3035697420839925632.jpg",
+                "imageSubText": "잡화-501-5_마른파이브_최고은",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104220021",
+                "contentsDescription": "한 번 입으면\r\n매일 찾게 되는\r\n마른파이브 언더웨어 할인",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 10,
+                "imageUrl": "90000120004/491/8288571160003242961.jpg",
+                "imageSubText": "W케어-501-4_라엘_임진희",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?&dispCatNo=500000104210021",
+                "contentsDescription": "보송하고 부드러운\r\n유기농 순면의 매력\r\n라엘 행사 보러가기",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 11,
+                "imageUrl": "90000120004/491/2222464266272881482.jpg",
+                "imageSubText": "케어플러스-501-2_이승훈",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?&dispCatNo=500000104070014",
+                "contentsDescription": "손상된\r\n피부 장벽을 위해\r\n케어플러스 데미지크림 할인",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 13,
+                "imageUrl": "90000120004/491/4095293057328754540.jpg",
+                "imageSubText": "월경색변화 정상인가요?_송명경",
+                "contentsColorInfo": "BLACK",
+                "contentsUrl": "/mtn/wcare/news/782?t_content_id=782",
+                "contentsDescription": "월경 색, 질감으로\r\n건강 상태 확인하기\r\n굴 낳는 느낌도 정상인가요?",
+                "contentsFontInfo": null
+            }
+        ],
+        "quickMenus": [
+            {
+                "displaySequence": 1,
+                "imageUrl": "90000120004/492/8083946135279738203.jpg",
+                "imageSubText": "우먼케어",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "/planshop/getPlanShopDetail.do?dispCatNo=500000104210013",
+                "contentsDescription": "우먼케어_N",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 2,
+                "imageUrl": "90000120004/492/2244173958394672830.jpg",
+                "imageSubText": "이너뷰티",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104190001",
+                "contentsDescription": "이너뷰티",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 3,
+                "imageUrl": "90000120004/492/5047939225524121749.jpg",
+                "imageSubText": "면역",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104180006",
+                "contentsDescription": "면역",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 5,
+                "imageUrl": "90000120004/492/5961235459222559508.jpg",
+                "imageSubText": "라인케어",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104200004",
+                "contentsDescription": "라인케어",
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 5,
+                "imageUrl": "90000120004/492/3225563021802771681.jpg",
+                "imageSubText": "수면",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000104220003",
+                "contentsDescription": "수면",
+                "contentsFontInfo": null
+            }
+        ],
+        "eventBandBanners": [
+            {
+                "displaySequence": 1,
+                "imageUrl": "90000120004/493/7544350560230781847.jpg",
+                "imageSubText": "(5/1~5) 5월 헬스+출석체크인_천화영",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000103960013",
+                "contentsDescription": null,
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 2,
+                "imageUrl": "90000120004/493/620021298107982844.jpg",
+                "imageSubText": "(5/1~7) 5월 헬스+사용설명서_천화영",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000103960016",
+                "contentsDescription": null,
+                "contentsFontInfo": null
+            },
+            {
+                "displaySequence": 3,
+                "imageUrl": "90000120004/493/823706149752719539.jpg",
+                "imageSubText": "5월 리액션 받으면 리워드 드려요_고영은",
+                "contentsColorInfo": "NOT_USE",
+                "contentsUrl": "planshop/getPlanShopDetail.do?dispCatNo=500000102970013",
+                "contentsDescription": null,
+                "contentsFontInfo": null
+            }
+        ],
+        "todaySpecials": {
+            "serverTime": null,
+            "title": "",
+            "goodsInfo": []
+        },
+        "weeklySpecials": [],
+        "categorySuggestionGoods": [],
+        "popularBrands": [],
+        "goodsCurations": {
+            "curationCornerNumber": 1,
+            "cornerName": null,
+            "cornerDescription": null,
+            "goodsInfo": []
+        },
+        "popularEventsGoods": [],
+        "recommendGoods": []
+    },
+    "pagination": null
+}

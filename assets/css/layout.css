@@ -1,0 +1,324 @@
+@import './fonts.css';
+@import './reset.css';
+@import './common.css';
+
+
+
+/* ------------ header ------------ */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 92px;
+    background: linear-gradient(180deg, #74d22d, rgb(116, 210, 45));
+    color: #fff;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+header .group-top .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    position: relative;
+}
+header .logo-area {
+    display: flex;
+    align-items: center;
+}
+header .logo-area a {
+    display: flex;
+    align-items: center;
+}
+header .logo-area a svg:nth-child(1) path {
+    fill: #fff;
+}
+header .logo-area a svg:nth-child(2) {
+    margin-left: 10px;
+}
+header .logo-area span {
+    margin-left: 16px;
+}
+header .util-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .util-area a {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+header .util-area svg {
+    all: unset;
+    fill: none;
+}
+header .util-area svg path {
+    stroke: #fff;
+}
+header .group-bottom .inner {
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+header .group-bottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+header .group-bottom li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+header .group-bottom li.health {
+    color: #2a5b07;
+}
+header .group-bottom li.on {
+    border-bottom: 3px solid #fff;
+}
+header.hide {
+    transform: translateY(-50%);
+    background: #74d22d;
+}
+header.opacity {
+    background: #74d22d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ footer ------------ */
+footer {
+    padding: 24px 15px 48px;
+    border-top: 0;
+    background: #f6f7f9;
+}
+footer .service-list {
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: -.03em;
+}
+footer .service-item {
+    display: inline-block;
+}
+footer .service-item:nth-child(2)::before,
+footer .service-item:nth-child(3)::before,
+footer .service-item:nth-child(4)::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 8px 5px 0;
+    background: #dadde0;
+    vertical-align: top;
+}
+footer .service-item a {
+    display: inline-block;
+    color: #757d86;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+footer .service-item:nth-child(1) a::before,
+footer .service-item:nth-child(2) a::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 3px 6px 0 0;
+    background: url('../images/sp-sns.png') no-repeat -5px -69px/92px auto;
+    vertical-align: top;
+}
+footer .service-item a span {
+    letter-spacing: -.07em;
+}
+footer .comp-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    letter-spacing: -.03em;
+    text-align: center;
+}
+footer .comp-info .btn-toggle {
+    position: relative;
+    height: 17px;
+    padding: 0 20px 0 0;
+    transform: none;
+    background: none;
+    color: #50585f;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+footer .comp-info .btn-toggle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: -10px;
+    background: url('../images/sp-sns.png') no-repeat -69px -5px/92px auto;
+}
+footer .comp-info .btn-toggle.on::after {
+    background: url('../images/sp-sns.png') no-repeat auto;
+    margin-top: -8px;
+    background-position: -69px -33px;
+}
+footer .comp-info .toggle-wrap {
+    margin-top: 15px;
+    display: none;
+}
+footer .comp-info .toggle-wrap.on {
+    display: block;
+}
+footer .comp-info .toggle-wrap address {
+    color: #99a1a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+}
+footer .comp-info .toggle-wrap address p {
+    display: flex;
+}
+footer .comp-info .toggle-wrap address p + p {
+    margin-top: 5px;
+}
+footer .comp-info .toggle-wrap address span {
+    width: 118px;
+}
+footer .comp-info .toggle-wrap .link-list {
+    margin-top: 19px;
+}
+footer .comp-info .toggle-wrap .copy {
+    display: block;
+    margin: 18px 0 24px;
+    color: #99a1a8;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.03em;
+}
+
+
+
+
+
+footer .sns-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    padding: 0;
+}
+footer .sns-item {
+    padding: 0 5px;
+} 
+footer .sns-item a {
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #dadde0;
+    border-radius: 100%;
+    background: none;
+}
+footer .sns-item a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    margin: -11px 0 0 -11px;
+    background: url('../images/sp-sns.png') no-repeat;
+    background-size: 92px auto;
+}
+footer .sns-item:nth-child(1) a::before {
+    background-position: -37px -5px;
+}
+footer .sns-item:nth-child(2) a::before {
+    background-position: -5px -5px;
+}
+footer .sns-item:nth-child(3) a::before {
+    background-position: -5px -37px;
+}
+footer .sns-item:nth-child(4) a::before {
+    background-position: -37px -37px;
+}
+
+
+footer .link-area {
+    padding-top: 16px;
+}
+footer .link-list {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 330px;
+}
+footer .link-list li {
+    display: inline-block;
+    padding: 0;
+    background: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #99a1a8;
+}
+footer .link-list li.on {
+    font-weight: bold;
+}
+footer .link-list li:nth-child(2)::before,
+footer .link-list li:nth-child(3)::before,
+footer .link-list li:nth-child(5)::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 9px;
+    margin: 3px 9px 0;
+    background-color: #dadde0;
+}
+footer .notice-area {
+    margin: 24px 0 0;
+    padding: 0 17px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    word-break: keep-all;
+    color: #99a1a8;
+}
+footer .download-area {
+    margin-top: 20px;
+    text-align: center;
+}
+footer .download-area .dw-btn {
+    display: inline-block;
+    width: 156px;
+    height: 34px;
+    border: 1px solid #c9cdd2;
+    border-radius: 4px;
+    color: #50585f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+}
