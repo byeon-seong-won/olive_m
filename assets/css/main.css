@@ -25,13 +25,24 @@
 .prd-list .prd-item .btn-area button path { stroke: #b2b8be; }
 .prd-list .prd-item .btn-area button svg { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); }
 
+.prd-list .prd-item {position: relative;}
+.prd-list .prd-item .link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+
 
 
 
 
 /* 스와이퍼 가로 */
+.prd-list.type-col .prd-item{ display: flex;align-items: center;padding-left: 15px;}
 .prd-list.type-col .prd-item + .prd-item {margin-top: 15px;}
-.prd-list.type-col .prd-item a { display: flex;align-items: center;padding-left: 15px;}
 .prd-list.type-col .prd-item .thumb-area {position: relative;overflow: hidden;border-radius: 4px;background-color: #f7f7f7;flex: none;width: 124px;height: 124px;margin-bottom: 0;}
 .prd-list.type-col .prd-item .thumb-area img {width: 100%;height: 100%;}
 .prd-list.type-col .prd-item .thumb-area .rank {display: flex;align-items: center;justify-content: center;position: absolute;left: 0;top: 0;width: 20px;height: 20px;z-index: 20;background-color: #000;color: #fff;font-size: 12px;line-height: 14px;font-weight: 700;}
@@ -583,18 +594,6 @@ main {
 .sc-health .btn-more span svg {
     stroke: #99a1a8;
 }
-.sc-health .prd-item {
-    position: relative;
-}
-.sc-health .prd-item .link {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-}
-
 
 
 
