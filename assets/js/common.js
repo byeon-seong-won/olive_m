@@ -306,7 +306,7 @@ fetch('./assets/data/data-02.json')
           branditemEl+= `
           <div class="swiper-slide">
             <a href="#" class="slide-banner">
-            <img src="https://image.oliveyoung.co.kr/uploads/images/display/${brandEl.imageInfo.imageUrl}" alt="${brandEl.imageInfo.imageSubText}">
+              <img src="https://image.oliveyoung.co.kr/uploads/images/display/${brandEl.imageInfo.imageUrl}" alt="${brandEl.imageInfo.imageSubText}">
               <div class="bg-txt">
                 <p>${brandEl.onlineBrandInfo.brandName}</p>
                 <span>
@@ -321,49 +321,49 @@ fetch('./assets/data/data-02.json')
             let price = addCommasToNumber(subbrandEl.priceToPay),
                 delprice = addCommasToNumber(subbrandEl.originalPrice),
                 review = addCommasToNumber(subbrandEl.goodsReviewTotalCount);
-            branditemEl+= `
-              <li class="prd-item">
-                <a href="#">
-                  <div class="thumb-area">
-                    <img src="https://image.oliveyoung.co.kr/uploads/images/goods/${subbrandEl.imagePath}" alt="${subbrandEl.goodsName}">
-                  </div>
-                  <div class="info-area-wrap">
-                    <div class="info-area">
-                      <p class="title">${subbrandEl.goodsName}</p>
-                      <p class="price-info">
-                        ${subbrandEl.discountRate == "0" ? '' : `<span class="sale">${subbrandEl.discountRate}%</span>`}
-                        <span class="price">${price}원</span>
-                        ${delprice == price ? "" : `<span class="del">${delprice}원</span>`}
-                      </p>
-                      <div class="subtext">
-                        ${subbrandEl.quickDeliveryFlag ? '<span class="today">오늘드림</span>' : ''}
-                        ${subbrandEl.bestGoodsFlag ? '<span class="best">BEST</span>' : ''}
-                        ${subbrandEl.giftPromotion == null ? '' : `<span class="best">${subbrandEl.giftPromotion}</span>`}
-                        ${subbrandEl.presentFlag ? '<span class="best">증정</span>' : ''}
+                branditemEl+= `
+                  <li class="prd-item">
+                    <a href="#">
+                      <div class="thumb-area">
+                        <img src="https://image.oliveyoung.co.kr/uploads/images/goods/${subbrandEl.imagePath}" alt="${subbrandEl.goodsName}">
                       </div>
-                      <p class="review">
-                        <svg width="32" height="32" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" color="gray50" class="Icon_icon__QJbJu Icon_solid__xBt0w Icon_color-gray50__eVyl1 "><path d="M16.6084 3.70276C16.6816 3.55408 16.8936 3.55397 16.9671 3.70259L21.1538 12.1752C21.1829 12.2342 21.2392 12.2751 21.3043 12.2845L30.6574 13.6388C30.8215 13.6627 30.8871 13.8642 30.7685 13.98L24.0042 20.5799C23.9572 20.6259 23.9357 20.6921 23.9468 20.757L25.549 30.0708C25.5771 30.2342 25.4057 30.3589 25.2589 30.2817L16.8918 25.8882C16.8334 25.8576 16.7638 25.8576 16.7056 25.8883L8.34276 30.2901C8.19607 30.3674 8.02453 30.2429 8.05247 30.0795L9.64543 20.7641C9.65652 20.6992 9.63498 20.633 9.58782 20.5871L2.81711 13.9938C2.69835 13.8782 2.76376 13.6766 2.92779 13.6526L12.2795 12.289C12.3446 12.2795 12.4009 12.2386 12.43 12.1795L16.6084 3.70276Z" stroke-width="2" stroke-linejoin="round"></path></svg>
-                        <span>4.8 (${review})</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="btn-area">
-                    <button aria-label="저장">
-                      <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" color="gray40" class="Icon_icon__QJbJu Icon_line__sHask Icon_color-gray40__Bjxmy "><path d="M24.9236 21.4359C26.1876 20.0985 27.3143 18.6016 28.3235 17.0596C29.5945 15.1197 30.2596 12.9168 29.8536 10.5884C29.3355 7.61996 27.1535 5.30237 24.2231 4.72986C21.1888 4.13636 18.272 5.46482 16.7185 8.07533C16.5997 8.27428 16.2211 8.84645 16.2211 8.84645C16.2211 8.84645 15.8377 8.27503 15.7185 8.07632C14.1584 5.4689 11.2425 4.14773 8.20788 4.74725C5.27864 5.32557 3.10279 7.64747 2.58907 10.6154C2.18617 12.9446 2.85716 15.1462 4.13193 17.0836C5.14421 18.6236 6.27393 20.1167 7.54057 21.4531C10.1402 24.1965 13.1901 26.8119 16.2398 29.1964C19.2847 26.8059 22.3294 24.1845 24.9236 21.4359Z" stroke-width="1.25" stroke-miterlimit="10" stroke-linejoin="round"></path></svg>
-                    </button>
-                    <button aria-label="장바구니">
-                      <svg width="16" height="16" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" color="gray40" class="Icon_icon__QJbJu Icon_line__sHask Icon_color-gray40__Bjxmy "><path d="M25.8801 8.4314H6.09161L3.73584 28.691H28.2358L25.8801 8.4314Z" stroke-width="1.25" stroke-linejoin="round"></path><path d="M20.5333 11V7.26667C20.5333 4.91025 18.6231 3 16.2667 3V3C13.9103 3 12 4.91025 12 7.26667V11" stroke-width="1.25" stroke-linecap="round"></path></svg>
-                    </button>
-                  </div>
-                </a>
-              </li>
+                      <div class="info-area-wrap">
+                        <div class="info-area">
+                          <p class="title">${subbrandEl.goodsName}</p>
+                          <p class="price-info">
+                            ${subbrandEl.discountRate == "0" ? '' : `<span class="sale">${subbrandEl.discountRate}%</span>`}
+                            <span class="price">${price}원</span>
+                            ${delprice == price ? "" : `<span class="del">${delprice}원</span>`}
+                          </p>
+                          <div class="subtext">
+                            ${subbrandEl.quickDeliveryFlag ? '<span class="today">오늘드림</span>' : ''}
+                            ${subbrandEl.bestGoodsFlag ? '<span class="best">BEST</span>' : ''}
+                            ${subbrandEl.giftPromotion == null ? '' : `<span class="best">${subbrandEl.giftPromotion}</span>`}
+                            ${subbrandEl.presentFlag ? '<span class="best">증정</span>' : ''}
+                          </div>
+                          <p class="review">
+                            <svg width="32" height="32" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" color="gray50" class="Icon_icon__QJbJu Icon_solid__xBt0w Icon_color-gray50__eVyl1 "><path d="M16.6084 3.70276C16.6816 3.55408 16.8936 3.55397 16.9671 3.70259L21.1538 12.1752C21.1829 12.2342 21.2392 12.2751 21.3043 12.2845L30.6574 13.6388C30.8215 13.6627 30.8871 13.8642 30.7685 13.98L24.0042 20.5799C23.9572 20.6259 23.9357 20.6921 23.9468 20.757L25.549 30.0708C25.5771 30.2342 25.4057 30.3589 25.2589 30.2817L16.8918 25.8882C16.8334 25.8576 16.7638 25.8576 16.7056 25.8883L8.34276 30.2901C8.19607 30.3674 8.02453 30.2429 8.05247 30.0795L9.64543 20.7641C9.65652 20.6992 9.63498 20.633 9.58782 20.5871L2.81711 13.9938C2.69835 13.8782 2.76376 13.6766 2.92779 13.6526L12.2795 12.289C12.3446 12.2795 12.4009 12.2386 12.43 12.1795L16.6084 3.70276Z" stroke-width="2" stroke-linejoin="round"></path></svg>
+                            <span>4.8 (${review})</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="btn-area">
+                        <button aria-label="저장">
+                          <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" color="gray40" class="Icon_icon__QJbJu Icon_line__sHask Icon_color-gray40__Bjxmy "><path d="M24.9236 21.4359C26.1876 20.0985 27.3143 18.6016 28.3235 17.0596C29.5945 15.1197 30.2596 12.9168 29.8536 10.5884C29.3355 7.61996 27.1535 5.30237 24.2231 4.72986C21.1888 4.13636 18.272 5.46482 16.7185 8.07533C16.5997 8.27428 16.2211 8.84645 16.2211 8.84645C16.2211 8.84645 15.8377 8.27503 15.7185 8.07632C14.1584 5.4689 11.2425 4.14773 8.20788 4.74725C5.27864 5.32557 3.10279 7.64747 2.58907 10.6154C2.18617 12.9446 2.85716 15.1462 4.13193 17.0836C5.14421 18.6236 6.27393 20.1167 7.54057 21.4531C10.1402 24.1965 13.1901 26.8119 16.2398 29.1964C19.2847 26.8059 22.3294 24.1845 24.9236 21.4359Z" stroke-width="1.25" stroke-miterlimit="10" stroke-linejoin="round"></path></svg>
+                        </button>
+                        <button aria-label="장바구니">
+                          <svg width="16" height="16" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" color="gray40" class="Icon_icon__QJbJu Icon_line__sHask Icon_color-gray40__Bjxmy "><path d="M25.8801 8.4314H6.09161L3.73584 28.691H28.2358L25.8801 8.4314Z" stroke-width="1.25" stroke-linejoin="round"></path><path d="M20.5333 11V7.26667C20.5333 4.91025 18.6231 3 16.2667 3V3C13.9103 3 12 4.91025 12 7.26667V11" stroke-width="1.25" stroke-linecap="round"></path></svg>
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  `;
+                });
+                branditemEl += `
+                  </ul>
+                </div>
               `;
-            });
-            branditemEl += `
-              </ul>
-            </div>
-          `;
-        });
+          });
         $('#brand').html(branditemEl);
   })
   .catch(error => {
