@@ -33,11 +33,12 @@ header .logo-area a {
     display: flex;
     align-items: center;
 }
+
+header .logo-area a svg:nth-child(1) {
+    margin-right: 10px;
+}
 header .logo-area a svg:nth-child(1) path {
     fill: #fff;
-}
-header .logo-area a svg:nth-child(2) {
-    margin-left: 10px;
 }
 header .logo-area span {
     margin-left: 16px;

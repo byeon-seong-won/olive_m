@@ -321,7 +321,6 @@ fetch('./assets/data/data-02.json')
             let price = addCommasToNumber(subbrandEl.priceToPay),
                 delprice = addCommasToNumber(subbrandEl.originalPrice),
                 review = addCommasToNumber(subbrandEl.goodsReviewTotalCount);
-  
             branditemEl+= `
               <li class="prd-item">
                 <a href="#">
@@ -390,12 +389,11 @@ fetch('./assets/data/data-02.json')
       let price = addCommasToNumber(healthEl.priceToPay),
           delprice = addCommasToNumber(healthEl.originalPrice),
           review = addCommasToNumber(healthEl.goodsReviewTotalCount);
-
           healthitemEl+= `
             <div class="swiper-slide prd-item">
-            <a href="#">
+              <a href="#" class="link"></a>
               <div class="thumb-area">
-              <img src="https://image.oliveyoung.co.kr/uploads/images/goods/${healthEl.imagePath}" alt="${healthEl.goodsName}">
+                <img src="https://image.oliveyoung.co.kr/uploads/images/goods/${healthEl.imagePath}" alt="${healthEl.goodsName}">
               </div>
               <div class="info-area">
                 <p class="title">${healthEl.goodsName}</p>
@@ -422,8 +420,8 @@ fetch('./assets/data/data-02.json')
                   <svg width="16" height="16" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" color="gray40" class="Icon_icon__QJbJu Icon_line__sHask Icon_color-gray40__Bjxmy "><path d="M25.8801 8.4314H6.09161L3.73584 28.691H28.2358L25.8801 8.4314Z" stroke-width="1.25" stroke-linejoin="round"></path><path d="M20.5333 11V7.26667C20.5333 4.91025 18.6231 3 16.2667 3V3C13.9103 3 12 4.91025 12 7.26667V11" stroke-width="1.25" stroke-linecap="round"></path></svg>
                 </button>
               </div>
-            </a>
-          </div>`
+            </div>
+          `
     });
     $('#health').html(healthitemEl);
   })
